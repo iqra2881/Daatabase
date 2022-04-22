@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:weightSum="9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="9">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:paddingLeft="50dp"
+            android:paddingTop="30dp"
+            android:text="Enter the Following"
+            android:textColor="#9A70E4"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="311dp"
+            android:layout_height="51dp"
+            android:layout_margin="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/gradient"
+            android:backgroundTint="#22E91E63"
+            android:ems="10"
+            android:hint=" Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="40dp"
+            android:textColor="#101010"
+            android:textColorHint="#8B8D8E"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+
+            android:id="@+id/editText_companyname"
+            android:layout_width="315dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/gradient"
+            android:backgroundTint="#22E91E63"
+            android:ems="10"
+            android:hint="SurName"
+            android:inputType="textPersonName"
+            android:paddingLeft="40dp"
+            android:textColor="#101010"
+            android:textColorHint="#8B8D8E"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+
+            android:id="@+id/editText_designation"
+            android:layout_width="315dp"
+            android:layout_height="49dp"
+            android:layout_margin="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/gradient"
+            android:backgroundTint="#22E91E63"
+            android:ems="10"
+            android:hint="Section"
+            android:inputType="textPersonName"
+            android:paddingLeft="40dp"
+            android:textColor="#101010"
+            android:textColorHint="#8B8D8E"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+
+            android:id="@+id/editText_phno"
+
+            android:layout_width="321dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/gradient"
+            android:backgroundTint="#22E91E63"
+
+            android:ems="10"
+            android:hint=" CGPA "
+            android:paddingLeft="40dp"
+            android:textColor="#101010"
+            android:textColorHint="#8B8D8E"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="213dp"
+
+
+            android:layout_height="35dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/gradient"
+            android:backgroundTint="#46F44336"
+            android:text=" Insert "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#9727AA"
+
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+
+
+            android:id="@+id/btnfetch"
+
+            android:layout_width="209dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/gradient"
+            android:backgroundTint="#46F44336"
+            android:text="View All"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#9727AA"
+
+
+            android:textSize="20dp"
+
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+            tools:ignore="DuplicateIds" />
+    </LinearLayout>
+</LinearLayout>
